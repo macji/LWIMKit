@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
 
   s.name         = "LWIMKit"
   s.version      = "2.5.0"
-  s.summary      = "阿里悟空通过提供云端 API 及客户端 SDK，帮助开发者简单、快速的开发移动应用"
+  s.summary      = "阿里悟空 iOS SDK"
   s.description  = <<-DESC
-                   阿里悟空通过提供云端 API 及客户端 SDK，帮助开发者简单、快速的开发移动应用
+                   阿里悟空通过提供云端 API 及客户端 SDK，帮助开发者简单、快速的开发移动应用。
                    DESC
   s.homepage     = "https://wukong.laiwang.com"
   s.license      = { :type => "MIT", :text => "阿里悟空 © 2014. See http://m.laiwang.com/market/laiwang/wukong-serviceagreement.php" }
