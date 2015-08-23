@@ -23,8 +23,7 @@ Pod::Spec.new do |s|
   s.libraries = "sqlite3", "z", "stdc++.6.0.9"
   s.xcconfig = { 
     "OTHER_LDFLAGS" => "-ObjC -lz", 
-    "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/LWIMKit", 
-    "CLANG_CXX_LIBRARY" => "compiler-default",
+    "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/LWIMKit"
   }
 
 end
