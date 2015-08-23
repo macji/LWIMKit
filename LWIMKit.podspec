@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWIMKit"
-  s.version      = "2.5.0"
+  s.version      = "2.5.5"
   s.summary      = "阿里悟空 iOS SDK"
   s.description  = <<-DESC
                    阿里悟空通过提供云端 API 及客户端 SDK，帮助开发者简单、快速的开发移动应用。
