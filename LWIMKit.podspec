@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWIMKit"
-  s.version      = "2.9.0"
+  s.version      = "2.9.1"
   s.summary      = "阿里悟空 iOS SDK"
   s.description  = <<-DESC
                    阿里悟空通过提供云端 API 及客户端 SDK，帮助开发者简单、快速的开发移动应用。
@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/macji/LWIMKit/master/Products/2.9.0/LWIMKit.framework.zip"}
-  s.preserve_paths = "LWIMKIT.framework/*"
+  s.source       = { :http => "https://github.com/macji/LWIMKit/raw/master/Products/2.9.0/LWIMKit.framework.zip"}
+  s.preserve_paths = "LWIMKit.framework/*"
 
-  s.vendored_frameworks = "LWIMKIT.framework"
+  s.vendored_frameworks = "LWIMKit.framework"
   s.requires_arc = true
 
   s.frameworks = "CFNetwork", "CoreTelephony", "CoreGraphics"
