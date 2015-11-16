@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
 
-  s.source       = { :http => "https://github.com/macji/LWIMKit/raw/master/Products/2.9.0/LWIMKIT.framework.zip"}
+  s.source       = { :http => "https://raw.githubusercontent.com/macji/LWIMKit/master/Products/2.9.0/LWIMKit.framework.zip"}
   s.preserve_paths = "LWIMKIT.framework/*"
 
   s.vendored_frameworks = "LWIMKIT.framework"
